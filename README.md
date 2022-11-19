@@ -14,18 +14,19 @@ Easy to build and use Engine Control Unit (ECU) for model Jet engines :
 
 1. [About the Project](#about-the-project)
 1. [Project Status](#project-status)
-1. [Getting Started](#getting-started)
+2. [Project Videos](#project-videos)
+3. [Getting Started](#getting-started)
 	1. [Dependencies](#dependencies)
 	1. [Building](#building)
 	1. [Installation](#installation)
 	1. [Usage](#usage)
-1. [Release Process](#release-process)
+4. [Release Process](#release-process)
 	1. [Versioning](#versioning)
 	1. [How to Get Help](#how-to-get-help)
-1. [Contributing](#contributing)
-1. [License](#license)
-1. [Authors](#authors)
-1. [Acknowledgments](#acknowledgements)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Authors](#authors)
+8. [Acknowledgments](#acknowledgements)
 
 ## About the Project
 
@@ -99,7 +100,7 @@ Current Release is Rev 7
 
 **[Back to top](#table-of-contents)**
 
-## How to Get Help
+## Contact Us
 
 For any help, suggestions, proposals you can send me an email at jehanzeb@digipak.org
 
