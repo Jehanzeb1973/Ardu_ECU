@@ -46,9 +46,10 @@ Although based on Arduino framework, current Arduino code uses some libraries wh
 
 **[Back to top](#table-of-contents)**
 
-## Getting Started
-
-
+## Project Videos
+* Project concept 	https://youtu.be/Xl8DUmeqQWw
+* Project setup 	https://youtu.be/wCetENek3wA
+* Testing Firmware 	https://youtu.be/1cKAqnF0G1I
 ### Dependencies
 
 * #include <soc/pcnt_struct.h>
