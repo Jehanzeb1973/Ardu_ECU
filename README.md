@@ -48,29 +48,26 @@ Although based on Arduino framework, current Arduino code uses some libraries wh
 
 ## Getting Started
 
-This section should provide instructions for other developers to
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Dependencies
 
-#include <soc/pcnt_struct.h>
-#include <driver/pcnt.h>
-#include <Wire.h>
-#include <U8g2lib.h>
-#include <Preferences.h>
-#include "RunningAverage.h"
-#include <FS.h>
-#include <SPI.h>
-#include <SD.h>
-#include <MAX31855.h>
-#include <ESP32Servo.h> 
-#include <EasyButton.h>
-#include <AsyncTCP.h>
-#include <ESPAsyncWebServer.h>
-#include <DNSServer.h>
-#include <WiFi.h>
-#include <ArduinoJson.h>
+-#include <soc/pcnt_struct.h>
+-#include <driver/pcnt.h>
+-#include <Wire.h>
+-#include <U8g2lib.h>
+-#include <Preferences.h>
+-#include "RunningAverage.h"
+-#include <FS.h>
+-#include <SPI.h>
+-#include <SD.h>
+-#include <MAX31855.h>
+-#include <ESP32Servo.h> 
+-#include <EasyButton.h>
+-#include <AsyncTCP.h>
+-#include <ESPAsyncWebServer.h>
+-#include <DNSServer.h>
+-#include <WiFi.h>
+-#include <ArduinoJson.h>
 
 ### Getting the Source
 
@@ -132,9 +129,9 @@ This project is licensed under the GNU AGPLv3 License - see [LICENSE.md](LICENSE
 
 ## Acknowledgments
 
-https://randomnerdtutorials.com/esp32-web-server-gauges/
-https://www.arduinoslovakia.eu/?lang=en
-https://canvas-gauges.com/
+-https://randomnerdtutorials.com/esp32-web-server-gauges/
+-https://www.arduinoslovakia.eu/?lang=en
+-https://canvas-gauges.com/
 
 
 
