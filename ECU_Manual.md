@@ -82,16 +82,27 @@ Before compiling Arduino code, make sure tht you have latest updates of all the 
 #include <Preferences.h>
 
 #include "RunningAverage.h"
+
 #include <FS.h>
+
 #include <SPI.h>
+
 #include <SD.h>
+
 #include <MAX31855.h>
+
 #include <ESP32Servo.h> 
+
 #include <EasyButton.h>
+
 #include <AsyncTCP.h>
+
 #include <ESPAsyncWebServer.h>
+
 #include <DNSServer.h>
+
 #include <WiFi.h>
+
 #include <ArduinoJson.h>
 
 ### Getting the Source
