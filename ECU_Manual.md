@@ -71,23 +71,23 @@ Before compiling Arduino code, make sure tht you have latest updates of all the 
 
 ### Dependencies
 
-# include <soc/pcnt_struct.h>
-# include <driver/pcnt.h>
-# include <Wire.h>
-# include <U8g2lib.h>
-# include <Preferences.h>
-# include "RunningAverage.h"
-# include <FS.h>
-# include <SPI.h>
-# include <SD.h>
-# include <MAX31855.h>
-# include <ESP32Servo.h> 
-# include <EasyButton.h>
-# include <AsyncTCP.h>
-# include <ESPAsyncWebServer.h>
-# include <DNSServer.h>
-# include <WiFi.h>
-# include <ArduinoJson.h>
+#include <soc/pcnt_struct.h>
+#include <driver/pcnt.h>
+#include <Wire.h>
+#include <U8g2lib.h>
+#include <Preferences.h>
+#include "RunningAverage.h"
+#include <FS.h>
+#include <SPI.h>
+#include <SD.h>
+#include <MAX31855.h>
+#include <ESP32Servo.h> 
+#include <EasyButton.h>
+#include <AsyncTCP.h>
+#include <ESPAsyncWebServer.h>
+#include <DNSServer.h>
+#include <WiFi.h>
+#include <ArduinoJson.h>
 
 ### Getting the Source
 
