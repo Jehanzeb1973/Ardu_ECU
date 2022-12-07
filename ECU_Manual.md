@@ -72,37 +72,21 @@ Before compiling Arduino code, make sure tht you have latest updates of all the 
 ### Dependencies
 
 #include <soc/pcnt_struct.h>
-
 #include <driver/pcnt.h>
-
 #include <Wire.h>
-
 #include <U8g2lib.h>
-
 #include <Preferences.h>
-
 #include "RunningAverage.h"
-
 #include <FS.h>
-
 #include <SPI.h>
-
 #include <SD.h>
-
 #include <MAX31855.h>
-
 #include <ESP32Servo.h> 
-
 #include <EasyButton.h>
-
 #include <AsyncTCP.h>
-
 #include <ESPAsyncWebServer.h>
-
 #include <DNSServer.h>
-
 #include <WiFi.h>
-
 #include <ArduinoJson.h>
 
 ### Getting the Source
@@ -186,6 +170,19 @@ Cooldown mode is entered from idle mode by switching off the mode switch. In coo
 
 
 **[Back to top](#table-of-contents)**
+
+## Problems encountered during development (Gotchas)
+
+### Engine mounting
+Most of the engines are constructed so that the casing cylinder forms seal at compressor diffuser and nozzle guide vane ring. When the engine runs, there is an increase in pressure inside the engine. This increased pressure is required to run the engine. These engine casing cylinders are usually light weight metal cans.
+If a generic clamp type engine mounting is used and tightened excessively around the engine body, it can distort the engine casing and cause a leakage through gas seal.If the leakage happens, engine will either sustain at higher RPM or fail to run entirely. 
+Depending on engine design a generic clamp (if used) should be placed so that an increase in OD is restricting the engine movement out of clamp as well.
+### Starter Motor
+Starter motor needs to be able to drive engine to self sustaining RPM.For J66 engine  Speed 400 or equivalent motor with minimum capability to drive engine to around 20000 RPM in cold condition is required. With this type of motor and fuel and/or gas burning, the engine will be able to reach self sustaining RPM. If the motor cannot deliver such RPM, engine will not start and may even get damaged. 
+For other engines a different type of motor may be required however the principle is the same. If the motor cannot bring engine to self sustaining RPM, the engine will not start
+ ### Glow plug Driver for gas ignition
+ A remote glow plug driver usually operates on high PWM frequency to deliver correct voltage to glow plug. This high frequency can travel through engine body and affect thermocouple which is also in contact with engine body thus causing erratic reading.
+ The easiest way in a test setup was to mount the thermocouple aft of exhaust nozzle without touching.
 
 ## Release Process
 
