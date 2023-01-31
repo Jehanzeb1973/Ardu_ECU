@@ -96,7 +96,7 @@ Test conditions and results are to be shared with the release version
 ### Versioning
 
 We are using whole number versioning. We will not do a major or minor release
-Current Release is Rev 7
+Current Release is Rev 9
 
 
 **[Back to top](#table-of-contents)**
