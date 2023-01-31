@@ -52,6 +52,10 @@ Although based on Arduino framework, current Arduino code uses some libraries wh
 * 2-Project setup 	https://youtu.be/wCetENek3wA
 * 3-Testing Firmware 	https://youtu.be/1cKAqnF0G1I
 * 4-New user interface 	https://youtu.be/sQsggVR1LOk
+* 5-Multiple Test Runs  https://youtu.be/5c6H9qnOwm4
+* 6-High acceleration	https://youtu.be/lYJ67fU-_sc
+* 7-User interface	https://youtu.be/T5aCW-EMLBw
+* 8-Final Release Test	https://youtu.be/rOXXS8oFhO8
 ### Dependencies
 
 * #include <soc/pcnt_struct.h>
