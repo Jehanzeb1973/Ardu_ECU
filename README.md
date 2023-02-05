@@ -67,7 +67,7 @@ Although based on Arduino framework, current Arduino code uses some libraries wh
 * #include <FS.h>
 * #include <SPI.h>
 * #include <SD.h>
-* #include <MAX31855.h>
+* #include <MAX31855.h>//url = https://github.com/enjoyneering/MAX31855
 * #include <ESP32Servo.h> 
 * #include <EasyButton.h>
 * #include <AsyncTCP.h>
