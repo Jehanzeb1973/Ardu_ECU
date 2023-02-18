@@ -185,7 +185,7 @@ Cooldown mode is entered from idle mode by switching off the mode switch. In coo
 ## Problems encountered during development (Gotchas)
 
 ### Fuel Pump Priming
-## The fuel pump has to be primed so that there is fuel line from fuel tank to the fuel pump is full of fuel and all air is expelled.
+## The fuel pump has to be primed so that fuel line from fuel tank to the fuel pump is full of fuel and all air is expelled.
 The startup of the engine requires a careful balance of fuel flow and starter RPM so engine can accelerate to self sustaining RPM. Proper priming of fuel pump is absolutely essential to achieve a good startup and in avoiding potential damage to engine. The firmware makes no assumption about the type of fuel pump, the delivery rate of fuel and the battery of fuel pump etc. The firmware detects the pumping of fuel through an increase in exhaust temperature and if temperature is not increasing, it keeps increasing the speed of fuel pump until it reaches maximum value.
 ## Scenario 1 (Fuel line is empty and pump has not been primed)
 Firmware will keep increasing the fuel pump speed  and will reach a scenario where as soon as fuel ines are filled and fuel reaches the fuel pump. It will dump massive amount of fuel into the engine. This will result in sudden acceleration and temperature rise which will be uncontrollable as the fuel is already in the engine and shutting down throttle will not stop the engine
