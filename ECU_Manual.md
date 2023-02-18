@@ -184,6 +184,14 @@ Cooldown mode is entered from idle mode by switching off the mode switch. In coo
 
 ## Problems encountered during development (Gotchas)
 
+### Fuel Pump Priming
+##The fuel pump has to be primed so that there is fuel line from fuel tank to the fuel pump is full of fuel and all air is expelled.
+The startup of the engine requires a careful balance of fuel flow and starter RPM so engine can accelerate to self sustaining RPM. Proper priming of fuel pump is absolutely essential to achieve a good startup and in avoiding potential damage to engine. The firmware makes no assumption about the type of fuel pump, the delivery rate of fuel and the battery of fuel pump etc. The firmware detects the pumping of fuel through an increase in exhaust temperature and if temperature is not increasing, it keeps increasing the speed of fuel pump until it reaches maximum value.
+## Scenario 1 (Fuel line is empty and pump has not been primed)
+Firmware will keep increasing the fuel pump speed  and will reach a scenario where as soon as fuel ines are filled and fuel reaches the fuel pump. It will dump massive amount of fuel into the engine. This will result in sudden acceleration and temperature rise which will be uncontrollable as the fuel is already in the engine and shutting down throttle will not stop the engine
+## Scenario 2 (During Priming the pump excess fuel has been pumped into the engine)
+In this scenario as soon as the fuel is ignited, it will accelerate the engine uncontrollably. Temperature and/or RPM can rise above engine limit and engine can get damaged.
+## Bottom Line is that if excess fuel has reached the engine and has been ignited an uncontrolled runaway will happen untill all the fuel is burned and or engine is damaged
 ### Engine mounting
 Most of the engines are constructed so that the casing cylinder forms seal at compressor diffuser and nozzle guide vane ring. When the engine runs, there is an increase in pressure inside the engine. This increased pressure is required to run the engine. These engine casing cylinders are usually light weight metal cans.
 If a generic clamp type engine mounting is used and tightened excessively around the engine body, it can distort the engine casing and cause a leakage through gas seal.If the leakage happens, engine will either sustain at higher RPM or fail to run entirely. 
