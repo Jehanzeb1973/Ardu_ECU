@@ -105,25 +105,25 @@ Current code is compiled on Arduino 1.8.19 and is running on ESP32 Devkit V1.
 The electronic schemetic is included in repository
 
 ECU has three modes which can be selected by double clicking the button. On each doubleclick, the next mode will be selected. The three modes selectable are 
-1- Trial mode Starter control
-2- Trial mode Fuel pump control and
-3- Normal mode
+1- Trial mode Starter control  
+2- Trial mode Fuel pump control and  
+3- Normal mode  
 
 Details of these modes are as below; 
 
-1- Trial mode
-    Starter Control
-    Fuel Pump Control
-2- Normal mode
-    Waiting
-        Starter control
-        Fuel Pump control
-    Starting
-        StartStage0
-        StartStage1
-    Idle
-    Operating
-    Cooldown
+1- Trial mode  
+   ensp Starter Control  
+   ensp Fuel Pump Control  
+2- Normal mode  
+   ensp Waiting  
+     emsp   Starter control  
+     emsp   Fuel Pump control  
+    Starting  
+     emsp   StartStage0  
+      emsp  StartStage1  
+    Idle  
+    Operating  
+    Cooldown  
 
 ## Trial mode
 ### Trial mode starter control (most dangerous mode- use with caution)
