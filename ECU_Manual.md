@@ -111,19 +111,20 @@ ECU has three modes which can be selected by double clicking the button. On each
 
 Details of these modes are as below; 
 
-1- Trial mode  
-   * Starter Control  
-   * Fuel Pump Control
-2- Normal mode  
-   *Waiting  
-    **Starter control  
-     **Fuel Pump control  
-   *Starting  
-    **StartStage0  
-    **StartStage1  
-   *Idle  
-   *Operating  
-   *Cooldown  
+1. Trial mode  
+   1. Starter Control  
+   2. Fuel Pump Control  
+   
+2. Normal mode  
+   1. Waiting  
+    	1. Starter control  
+     	2. Fuel Pump control  
+   2. Starting  
+    	1. StartStage0  
+    	2. StartStage1  
+   3. Idle  
+   4. Operating  
+   5. Cooldown  
 
 ## Trial mode
 ### Trial mode starter control (most dangerous mode- use with caution)
