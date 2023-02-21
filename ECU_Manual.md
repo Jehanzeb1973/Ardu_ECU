@@ -113,17 +113,17 @@ Details of these modes are as below;
 
 1- Trial mode  
    * Starter Control  
-   * Fuel Pump Control  
+   * Fuel Pump Control
 2- Normal mode  
-   * Waiting  
-    **   Starter control  
-     **   Fuel Pump control  
-    * Starting  
-    **   StartStage0  
-      **  StartStage1  
-    *Idle  
-    *Operating  
-    *Cooldown  
+   *Waiting  
+    **Starter control  
+     **Fuel Pump control  
+   *Starting  
+    **StartStage0  
+    **StartStage1  
+   *Idle  
+   *Operating  
+   *Cooldown  
 
 ## Trial mode
 ### Trial mode starter control (most dangerous mode- use with caution)
