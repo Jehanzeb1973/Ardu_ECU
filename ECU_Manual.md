@@ -54,12 +54,13 @@ Similarly, for controlling a model Jet engine only a few control parameters are 
 ## Project Status
 
 Although based on Arduino framework, current Arduino code uses some libraries which are specific to ESP32 and will not readily compile for other platforms.
-A WiFi webserver is now added to ECU firmware. It starts on power up and provides four pages output. 
-WiFi SSID is "Ardu_ECU" and password is "Admin123"
+A WiFi webserver is now added to ECU firmware. It starts on power up and provides five web pages output. 
+WiFi SSID is "Ardu_ECU" and password is "admin123"
 Pages can be loaded by typing IP address in web browser (192.168.4.1)
 Also, a DNS is builtin and you can use any web address as long as it is not a persistent IP. e.g. you can use y.com , x.com or any thing similar and it will take you to Page1 of web server
 Page 1 is used to set Engine Parameters
 Page 2-4 display various control and state parameters and act as a data terminal
+Page 5 displays all measured values at last abort time.
 
 
 
@@ -91,7 +92,7 @@ Before compiling Arduino code, make sure tht you have latest updates of all the 
 
 ### Getting the Source
 
-Still in progress. A working version will be shared soon
+Ardu_ECU Rev9 is released and source code can be downloaded as a zip file from this repository. No libraries are included and will have to be downloaded and installed seperately
 
 ### Installation
 
