@@ -206,7 +206,8 @@ Arduino based ECU is designed to use off the shelf components. A starter motor w
  ### Glow plug Driver for gas ignition
  A remote glow plug driver usually operates on high PWM frequency to deliver correct voltage to glow plug. This high frequency can travel through engine body and affect thermocouple which is also in contact with engine body thus causing erratic reading.  
  The easiest way in a test setup was to mount the thermocouple aft of exhaust nozzle without touching.
-
+ ### Common connections while using multiple ESC
+ For test purpose we used power distribution board used in drones. This allows multiple ESC's to be connected to same battery. We are using at least two ESC's in this project to control 1-Starter motor and 2-Fuel Pump. If both the ESC's can supply power through their BEC RC connections, make sure that only one is supplying 5v power to the common bus. IF both ESC's try to supply power, minor difference in voltage may cause over current and components to malfunction or burn out. 
 ## Release Process
 
 Release will require testing on an actual engine.  
