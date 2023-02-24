@@ -20,7 +20,7 @@ Easy to build and use Engine Control Unit (ECU) for model Jet engines :
 	1. [Installation](#installation)
 	1. [Usage](#usage)
 1. [Release Process](#release-process)
-	1. [Versioning](#versioning)
+	1. [Versions](#versions)
 	1. [How to Get Help](#how-to-get-help)
 1. [Contributing](#contributing)
 1. [License](#license)
@@ -213,10 +213,11 @@ Arduino based ECU is designed to use off the shelf components. A starter motor w
 Release will require testing on an actual engine.  
 Test conditions and results are to be shared with the release version
 
-### Versioning
+### Versions
 
 We are using whole number versioning. We will not do a major or minor release
-Current Release is Rev 9
+## Ardu_ECU Rev 9
+Ardu_ECU Rev 9 is the first public release of this firmware. This firmware is geared towards a micro turbine engine which uses an electric starter and starting gas ignition to help start the turbine.
 
 
 **[Back to top](#table-of-contents)**
