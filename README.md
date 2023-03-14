@@ -100,7 +100,13 @@ Test conditions and results are to be shared with the release version
 ### Versioning
 
 We are using whole number versioning. We will not do a major or minor release
-Current Release is Rev 9
+Current Release is Rev 10
+
+## ECU Rev 10 Notes
+Added a slider control on Page1 to switch off WebServer. This is helpful in actual flying jets as you dont want a transmitter next to your RC receiver. Only WiFi is switched off, other functiond work as normal
+Software corrections-DynamicJsonDoc moved from global to local- Removed OLED Displays, Updated Page 4 for battery voltage and maxLoopTime- Added Page 6 to track engine and ECU lifetime usage
+
+
 
 
 **[Back to top](#table-of-contents)**
