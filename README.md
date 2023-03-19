@@ -56,6 +56,7 @@ Although based on Arduino framework, current Arduino code uses some libraries wh
 * 6-High acceleration	https://youtu.be/lYJ67fU-_sc
 * 7-User interface	https://youtu.be/T5aCW-EMLBw
 * 8-Final Release Test	https://youtu.be/rOXXS8oFhO8
+* 9-Thrust Test 	https://youtu.be/VEnOmlrnRFM
 ### Dependencies
 
 * #include <soc/pcnt_struct.h>
