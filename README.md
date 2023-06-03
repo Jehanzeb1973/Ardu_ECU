@@ -110,6 +110,7 @@ Software corrections-DynamicJsonDoc moved from global to local- Removed OLED Dis
 **[Back to top](#table-of-contents)**
 
 ## ECU Rev 11 Notes (In Progress)
+Major hardware redesign
 Changed Pin assignments and added 4 wire SD card capability
 Added sd loop time and data file name info on Page 4.
 Added buttons on page 4 to reset error,manage files and change ECU modes. 
