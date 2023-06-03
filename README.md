@@ -111,16 +111,16 @@ Software corrections-DynamicJsonDoc moved from global to local- Removed OLED Dis
 
 ## ECU Rev 11 Notes (In Progress)
 
-Major hardware redesign
-Changed Pin assignments and added 4 wire SD card capability
-Added sd loop time and data file name info on Page 4.
-Added buttons on page 4 to reset error,manage files and change ECU modes. 
-Added page 7 to be able to download and delete data files
-Added Fuel Solenoid capability. 
-Added Two LED's to Show WiFi State and SD Recording state.SD card pinout as below
+* Major hardware redesign
+* Changed Pin assignments and added 4 wire SD card capability
+* Added sd loop time and data file name info on Page 4.
+* Added buttons on page 4 to reset error,manage files and change ECU modes. 
+* Added page 7 to be able to download and delete data files
+* Added Fuel Solenoid capability. 
+* Added Two LED's to Show WiFi State and SD Recording state.SD card pinout as below
           http://3.bp.blogspot.com/_8JZhVVmpICU/TH_Pxa19MHI/AAAAAAAAApg/pgSppwx0gY8/s1600/SD+card+pinout.jpg
 	  
-Added ability to change ECU Webserver WiFi SSID and Password on page 1
+* Added ability to change ECU Webserver WiFi SSID and Password on page 1
 
 
 **[Back to top](#table-of-contents)**
