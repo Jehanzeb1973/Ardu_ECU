@@ -107,7 +107,18 @@ Current Release is Rev 10
 Added a slider control on Page1 to switch off WebServer. This is helpful in actual flying jets as you dont want a transmitter next to your RC receiver. Only WiFi is switched off, other functiond work as normal
 Software corrections-DynamicJsonDoc moved from global to local- Removed OLED Displays, Updated Page 4 for battery voltage and maxLoopTime- Added Page 6 to track engine and ECU lifetime usage
 
+**[Back to top](#table-of-contents)**
 
+## ECU Rev 11 Notes (In Progress)
+Changed Pin assignments and added 4 wire SD card capability
+Added sd loop time and data file name info on Page 4.
+Added buttons on page 4 to reset error,manage files and change ECU modes. 
+Added page 7 to be able to download and delete data files
+Added Fuel Solenoid capability. 
+Added Two LED's to Show WiFi State and SD Recording state.SD card pinout as below
+          http://3.bp.blogspot.com/_8JZhVVmpICU/TH_Pxa19MHI/AAAAAAAAApg/pgSppwx0gY8/s1600/SD+card+pinout.jpg
+	  
+Added ability to change ECU Webserver WiFi SSID and Password on page 1
 
 
 **[Back to top](#table-of-contents)**
