@@ -194,6 +194,8 @@ Firmware will keep increasing the fuel pump speed  and will reach a scenario whe
 ## Scenario 2 (During Priming the pump, excess fuel has been pumped into the engine)
 In this scenario as soon as the fuel is ignited, it will accelerate the engine uncontrollably. Temperature and/or RPM can rise above engine limit and engine can get damaged.
 ## Bottom Line is that if excess fuel has reached the engine and has been ignited an uncontrolled runaway will happen untill all the fuel is burned and/or engine is damaged
+### Fuel Pump Airlock during startup
+During startup the engine is spun with a starter motor at high RPM this creates high pressure inside the engine. If no check valve is used on fuel lines, it is possible that this high pressure will push the air in fuel line to an extent that the air enters the fuel pump. Once the air is inside the fuel pump, it will be difficult for pump to push the fuel in the engine. In this situation the pump will speed up and may flood the engine resulting in high speed and exceeding max temperature.
 ### Engine mounting
 Most of the engines are constructed so that the casing cylinder forms seal at compressor diffuser and nozzle guide vane ring. When the engine runs, there is an increase in pressure inside the engine. This increased pressure is required to run the engine. These engine casing cylinders are usually light weight metal cans.  
 If a generic clamp type engine mounting is used and tightened excessively around the engine body, it can distort the engine casing and cause a leakage through gas seal.If the leakage happens, engine will either sustain at higher RPM or fail to run entirely. 
