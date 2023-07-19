@@ -79,7 +79,7 @@ Although based on Arduino framework, current Arduino code uses some libraries wh
 
 ### Getting the Source
 
-ECU-Rev9 Zip file is the latest firmware 
+ECU-Rev10 Zip file is the latest firmware 
 
 ### Installation
 
