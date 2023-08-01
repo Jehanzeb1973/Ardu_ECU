@@ -57,6 +57,7 @@ Although based on Arduino framework, current Arduino code uses some libraries wh
 * 7-User interface	https://youtu.be/T5aCW-EMLBw
 * 8-Final Release Test	https://youtu.be/rOXXS8oFhO8
 * 9-Thrust Test 	https://youtu.be/VEnOmlrnRFM
+* 10-ECU Rev11 Release  https://youtu.be/CBFElKNjws0
 ### Dependencies
 
 * #include <soc/pcnt_struct.h>
