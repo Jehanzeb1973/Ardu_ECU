@@ -113,14 +113,21 @@ Software corrections-DynamicJsonDoc moved from global to local- Removed OLED Dis
 
 * Major hardware redesign
 * Changed Pin assignments and added 4 wire SD card capability
+* SD Card functions running on Core 0 while Main loop is running on Core 1.
+* Changed data range to 0-1000
+* At each power up two files are written to SD Card. 
+        **  1) Settings file with all the settings at power up and
+        **  2) Data file with engine operating data from power up till the ECU is powered off
 * Added sd loop time and data file name info on Page 4.
-* Added buttons on page 4 to reset error,manage files and change ECU modes. 
+* Added buttons on page 4 to reset error,manage files and change ECU modes.
 * Added page 7 to be able to download and delete data files
-* Added Fuel Solenoid capability. 
-* Added Two LED's to Show WiFi State and SD Recording state.SD card pinout as below
+* Added Fuel Solenoid capability. Added Two LED's to Show WiFi State and SD Recording state.SD card pinout as below
           http://3.bp.blogspot.com/_8JZhVVmpICU/TH_Pxa19MHI/AAAAAAAAApg/pgSppwx0gY8/s1600/SD+card+pinout.jpg
-	  
 * Added ability to change ECU Webserver WiFi SSID and Password on page 1
+* Added option for Magnetic (1 Pulse per revolution)  or Optical (2 pulses per revolution)  RPM sensor 
+* Implemented tempGradient check to limit sharp rise in exhaust temperature (tempGrad and maxTempGrad variables)
+* Implemented lookahead for temperature and stop increasing fuel flow if exhaust temp will increase above maxTemp in 3 sec (tempGrad x 3)
+
 
 
 **[Back to top](#table-of-contents)**
