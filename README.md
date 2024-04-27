@@ -44,19 +44,19 @@ Easy to build and use Engine Control Unit (ECU) for model Jet engines :
 
 Although based on Arduino framework, current Arduino code uses some libraries which are specific to ESP32 and will not readily compile for other platforms. 
 
-Release Version:
-Current ECU release version is Rev 11. This version has been tested with gas start engine and is working fine with no known issues.
+###Release Version:
+*Current ECU release version is Rev 11. This version has been tested with gas start engine and is working fine with no known issues.
 
-Test Version:
-Current test version is ECU Rev12TC10. This is still under test with not all code fully tested. Being released for community to test and release.
+###Test Version:
+*Current test version is ECU Rev12TC10. This is still under test with not all code fully tested. Being released for community to test and release.
 
-New Features include:
-Kero Start --Tested and working
-Ability to save and load configuration files -- Tested and working
-Realtime Serial data logging -- Tested and working
-Ability to read pressure sensor --Tested and working
-Ability to read load cell --Tested but has errors
-New starting methods included are open loop throttle start and pressure sensor start --not tested
+####New Features include:
+*Kero Start --Tested and working
+*Ability to save and load configuration files -- Tested and working
+*Realtime Serial data logging -- Tested and working
+*Ability to read pressure sensor --Tested and working
+*Ability to read load cell --Tested but has errors
+*New starting methods included are open loop throttle start and pressure sensor start --not tested
 
 
 
