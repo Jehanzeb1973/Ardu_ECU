@@ -48,7 +48,7 @@ Although based on Arduino framework, current Arduino code uses some libraries wh
 * Current ECU release version is Rev 11. This version has been tested with gas start engine and is working fine with no known issues.
 
 ### Test Version:
-* Current test version is ECU Rev12TC10. This is still under test with not all code fully tested. Being released for community to test and release.
+* Current test version is ECU Rev12TC10. This version uses different pinouts due to more sensors. This is still under test with not all code fully tested. Being released for community to test and release.
 
 #### New Features include:
 * Kero Start --Tested and working
